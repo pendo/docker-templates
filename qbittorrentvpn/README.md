@@ -5,7 +5,7 @@
 
 ## Headless qBittorrent docker with WebUI and OpenVPN support
 
-![alt text][preview]
+
 
 # URLs
 Docker Maintainer:  
