@@ -1,15 +1,16 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>qbittorrentvpn</Name>
-  <Repository>markusmcnugen/qbittorrentvpn</Repository>
-  <Registry>https://hub.docker.com/r/markusmcnugen/qbittorrentvpn/</Registry>
+  <Repository>pendo/qbittorrentvpn</Repository>
+  <Registry>https://hub.docker.com/r/pendo/qbittorrentvpn/</Registry>
   <Network>br0</Network>
   <MyIP></MyIP>
   <Privileged>true</Privileged>
-  <Support>https://lime-technology.com/forums/topic/69152-support-markusmcnugens-docker-repository/</Support>
-  <Overview>Docker container which runs a headless qBittorrent v4.3 client with WebUI wth optional OpenVPN connection including iptables killswitch to prevent IP leakage when tunnel does down.</Overview>
+  <Support></Support>
+  <Overview>**copy of MarkusMcNugen** 
+    Docker container which runs a headless qBittorrent v4.3 client with WebUI wth optional OpenVPN connection including iptables killswitch to prevent IP leakage when tunnel does down.</Overview>
   <Category>Downloaders:</Category>
-  <WebUI>http://[IP]:[PORT:8080]/</WebUI>
+  <WebUI>http://[IP]:[PORT:8990]/</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/MarkusMcNugen/docker-templates/master/qbittorrentvpn/qbittorrentvpn-template.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/MarkusMcNugen/docker-templates/master/qbittorrentvpn/qbittorrentvpn-icon.png</Icon>
   <ExtraParams/>
@@ -20,8 +21,8 @@
     <Mode>br0</Mode>
      <Publish>
       <Port>
-        <HostPort>8080</HostPort>
-        <ContainerPort>8080</ContainerPort>
+        <HostPort>8990</HostPort>
+        <ContainerPort>8990</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>
       <Port>
@@ -75,7 +76,7 @@
       <Mode/>
     </Variable>
   </Environment>
-  <Config Name="Host Port 1" Target="8080" Default="8080" Mode="tcp" Description="Container Port: 8080" Type="Port" Display="always" Required="true" Mask="false">8080</Config>
+  <Config Name="Host Port 1" Target="8990" Default="8990" Mode="tcp" Description="Container Port: 8990" Type="Port" Display="always" Required="true" Mask="false">8990</Config>
   <Config Name="Host Port 2" Target="8999" Default="8999" Mode="tcp" Description="Container Port: 8999" Type="Port" Display="always" Required="true" Mask="false">8999</Config>
   <Config Name="Host Port 3" Target="8999" Default="8999" Mode="udp" Description="Container Port: 8999" Type="Port" Display="always" Required="true" Mask="false">8999</Config>
   <Config Name="config" Target="/config" Default="/mnt/cache/appdata/qbittorrentvpn" Mode="rw" Description="Container Path: /config" Type="Path" Display="always" Required="true" Mask="false"></Config>
