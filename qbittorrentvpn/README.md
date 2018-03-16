@@ -1,5 +1,5 @@
 [githubownerurl]: https://github.com/pendo
-# [preview]: https://raw.githubusercontent.com/MarkusMcNugen/docker-templates/master/qbittorrentvpn/Screenshot.png "qBittorrent Preview"
+[preview]: https://raw.githubusercontent.com/MarkusMcNugen/docker-templates/master/qbittorrentvpn/Screenshot.png "qBittorrent Preview"
 
 # unRAID qBittorrentvpn Web Template
 
