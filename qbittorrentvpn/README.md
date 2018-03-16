@@ -1,5 +1,5 @@
-[githubownerurl]: https://github.com/MarkusMcNugen
-[preview]: https://raw.githubusercontent.com/MarkusMcNugen/docker-templates/master/qbittorrentvpn/Screenshot.png "qBittorrent Preview"
+[githubownerurl]: https://github.com/pendo
+# [preview]: https://raw.githubusercontent.com/MarkusMcNugen/docker-templates/master/qbittorrentvpn/Screenshot.png "qBittorrent Preview"
 
 # unRAID qBittorrentvpn Web Template
 
@@ -9,10 +9,10 @@
 
 # URLs
 Docker Maintainer:  
-[MarkusMcNugen][githubownerurl]  
+[pendo][githubownerurl]  
 
 Docker Hub:  
-https://hub.docker.com/r/markusmcnugen/qbittorrentvpn/
+https://hub.docker.com/r/pendo/qbittorrentvpn/
 
 Github:  
-https://github.com/MarkusMcNugen/docker-qBittorrentvpn
+https://github.com/pendo/docker-qBittorrentvpn
