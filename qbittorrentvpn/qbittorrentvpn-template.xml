@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Container version="3">
+<Container version="4">
   <Name>qbittorrentvpn</Name>
   <Repository>pendo/qbittorrentvpn</Repository>
   <Registry>https://hub.docker.com/r/pendo/qbittorrentvpn/</Registry>
@@ -11,11 +11,11 @@
     Docker container which runs a headless qBittorrent v4.3 client with WebUI wth optional OpenVPN connection including iptables killswitch to prevent IP leakage when tunnel does down.</Overview>
   <Category>Downloaders:</Category>
   <WebUI>http://[IP]:[PORT:8990]/</WebUI>
-  <TemplateURL>https://github.com/pendo/docker-templates/blob/master/qbittorrentvpn/qbittorrentvpn-template.xml</TemplateURL>
-  <Icon>https://github.com/pendo/docker-templates/blob/master/qbittorrentvpn/qbittorrentvpn-icon.png</Icon>
+  <TemplateURL>https://raw.githubusercontent.com/pendo/docker-templates/master/qbittorrentvpn/qbittorrentvpn-template.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/pendo/docker-templates/master/qbittorrentvpn/qbittorrentvpn-icon.png</Icon>
   <ExtraParams/>
   <PostArgs/>
-  <DateInstalled>1517797133</DateInstalled>
+  <DateInstalled></DateInstalled>
   <Description>Docker container which runs a headless qBittorrent v4.3 client with WebUI wth optional OpenVPN connection including iptables killswitch to prevent IP leakage when tunnel does down.</Description>
   <Networking>
     <Mode>br0</Mode>
